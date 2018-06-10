@@ -1,4 +1,22 @@
-# Web Components tutorials
+# How to Use
+
+npm install
+
+npm run build
+
+npm i -g static-server
+
+static-server
+
+http://localhost:9080/Part1/index.html
+
+http://localhost:9080/Part2/index.html
+
+# Reference
+
+https://github.com/ayushgp/web-components-tutorial
+
+# Site Instructions
 
 This repository contains the code I wrote to go along with [web component posts](https://ayushgp.github.io/html-web-components-using-vanilla-js/). To run the code, you need a static server. I use [static-server](https://github.com/nbluis/static-server) for it. Go to either directory and run:
 

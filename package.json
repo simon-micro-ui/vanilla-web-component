@@ -1,0 +1,22 @@
+{
+    "name": "web-components-tutorial",
+    "version": "0.0.0",
+    "license": "MIT",
+    "scripts": {
+        "prebuild": "rm -rf dist",
+        "build-old": "webpack",
+        "build": "mkdir dist\\bundles && cp -r ./src/Part1/ dist/ && cp -r ./src/Part2/ dist/ && cp ./node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce.js dist/bundles/ && cp ./node_modules/@webcomponents/webcomponentsjs/bundles/webcomponents-sd-ce.js.map dist/bundles/ && cp ./node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js dist/",
+        "serve": "http-server ."
+    },
+    "private": true,
+    "dependencies": {
+        "@webcomponents/custom-elements": "^1.1.1",
+        "@webcomponents/webcomponentsjs": "^2.0.0"
+    },
+    "devDependencies": {
+        "http-server": "0.11.1",
+        "typescript": "~2.7.2",
+        "webpack": "4.8.2",
+        "webpack-cli": "2.1.3"
+    }
+}
